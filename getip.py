@@ -8,6 +8,5 @@ s.close()
 
 public_ip = requests.get("https://api64.ipify.org").text
 
-# Tulosta molemmat
 print(f"Local IP: {local_ip}")
 print(f"Public IP: {public_ip}")
